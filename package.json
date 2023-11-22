@@ -1,11 +1,9 @@
 {
   "name": "krrs-error-code-parser",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "description": "Error handler for handling basic errors in a certain format.",
   "main": "index.js",
-  "bin":{
-
-  },
+  "bin": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +14,10 @@
     "basic error handler"
   ],
   "author": "Rishikesh Shetty",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  }
 }
